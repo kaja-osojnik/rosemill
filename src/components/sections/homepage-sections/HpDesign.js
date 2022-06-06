@@ -32,19 +32,13 @@ const HpDesign = () => {
         <div className="design-piece">
           <Link to="/design" className="design-thumbnail rbno">
             <h3>//rbno 2.1a</h3>
-            <div
-              className="pixelator rbno-img"
-              data-original="img/Juxtaxrbno2.1a2rflctd.jpg"
-            ></div>
+            <div className="pixelator rbno-img"></div>
             <span>ALBUM COVER</span>
           </Link>
 
           <Link to="/design" className="design-thumbnail tracks">
             <h3>//Tracks</h3>
-            <div
-              className="pixelator tracks-img"
-              data-original="img/tracks.jpg"
-            ></div>
+            <div className="pixelator tracks-img"></div>
             <span>BOOK DESIGN</span>
           </Link>
 
@@ -53,10 +47,7 @@ const HpDesign = () => {
               //Banana <br />
               Leaves
             </h3>
-            <div
-              className="pixelator bananaleaves-img"
-              data-original="img/bananaleaves.png"
-            ></div>
+            <div className="pixelator bananaleaves-img"></div>
             <span>BRANDING</span>
           </Link>
         </div>
@@ -64,34 +55,25 @@ const HpDesign = () => {
         <div className="design-piece">
           <Link to="/design" className="design-thumbnail bunch">
             <h3>//Bunch</h3>
-            <div
-              className="pixelator bunch-img"
-              data-original="img/bunch.jpg"
-            ></div>
+            <div className="pixelator bunch-img"></div>
             <span>BRANDING</span>
           </Link>
 
           <Link to="/design" className="design-thumbnail maybe">
             <h3>//Maybe mag</h3>
-            <div
-              className="pixelator maybe-img"
-              data-original="img/maybe.jpg"
-            ></div>
+            <div className="pixelator maybe-img"></div>
             <span>PUBLICATION</span>
           </Link>
 
           <Link to="/design" className="design-thumbnail strider">
             <h3>//Strider</h3>
-            <div
-              className="pixelator strider-img"
-              data-original="img/strider.png"
-            ></div>
+            <div className="pixelator strider-img"></div>
             <span>BRANDING</span>
           </Link>
         </div>
-        <Link to="/design" className="see-all-design">
+        {/* <Link to="/design" className="see-all-design">
           SEE ALL DESIGN & COLLAGE
-        </Link>
+        </Link> */}
       </section>
     </Fragment>
   );
