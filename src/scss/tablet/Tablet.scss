@@ -1,0 +1,260 @@
+@media only screen and (max-width: 992px) {
+	.design-item-copy {
+		h2 {
+			font-size: 70px;
+		}
+	}
+	h1 {
+		font-size: 12.5rem;
+	}
+	.design {
+		h2 {
+			font-size: 5.5rem;
+		}
+	}
+	.webdev {
+		h2 {
+			font-size: 5.5rem;
+		}
+	}
+	.about {
+		h2 {
+			font-size: 5.5rem;
+			width: 90%;
+			margin: auto;
+		}
+	}
+	.rosemill-logo {
+		width: 85px;
+		height: 85px;
+	}
+	.rosemill-logo-rose {
+		height: 40px;
+		width: 40px;
+		position: absolute;
+		bottom: 32px;
+		left: 27px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.page-webdev {
+		.pixelator {
+			max-width: 398px;
+			height: 238px;
+		}
+	}
+	.page-design {
+		nav {
+			a {
+				&:hover {
+					color: #E5DDE0;
+				}
+			}
+		}
+	}
+	.pixelator {
+		height: 375px;
+		max-width: 340px;
+		margin: 7px auto 0;
+	}
+	.homepage {
+		.design-portfolio-front {
+			.pixelator {
+				max-width: 200px;
+			}
+		}
+	}
+	.rbno-img {
+		height: 200px;
+	}
+	.strider-img {
+		height: 200px;
+	}
+	.bunch-img {
+		height: 200px;
+	}
+	.bananaleaves-img {
+		height: 200px;
+	}
+	.tracks-img {
+		height: 230px;
+	}
+	.maybe-img {
+		height: 230px;
+	}
+	.tracks-logo {
+		height: 100px;
+	}
+	.bunch_website {
+		height: 1200px;
+	}
+	.strider_website {
+		height: 1200px;
+	}
+	.teeprinting {
+		height: 1200px;
+	}
+	.design-item {
+		margin-left: 0;
+	}
+	h1 {
+		font-size: 8.5rem;
+		margin-top: 280px;
+	}
+	.intro-copy {
+		font-size: 30px;
+		margin-top: 400px;
+		width: 80%;
+		strong {
+			font-size: 2rem;
+		}
+	}
+	.rosemill {
+		font-size: 15px;
+	}
+	.city {
+		display: block;
+		span {
+			display: block;
+			text-align: center;
+			font-size: 15px;
+			margin: 10px;
+		}
+	}
+	.mainPlanet {
+		width: 50%;
+		height: 50%;
+	}
+	.smallPlanet {
+		img {
+			width: 10%;
+		}
+		display: none;
+	}
+	.planet-x {
+		img {
+			top: 5px;
+		}
+	}
+	.mars {
+		img {
+			top: -20px;
+		}
+	}
+	.saturn {
+		img {
+			top: -40px;
+		}
+	}
+	.planet-y {
+		img {
+			top: -75px;
+			display: none;
+		}
+	}
+	.main-heading-wrap {
+		height: auto;
+	}
+	.webdev-content {
+		background-color: transparent;
+	}
+	.webdev {
+		background-color: transparent;
+		width: 100%;
+		h2 {
+			font-size: 4.5rem;
+			width: 100%;
+			margin: auto;
+			top: 90px;
+		}
+	}
+	.design {
+		h2 {
+			font-size: 4.5rem;
+			width: 100%;
+			margin: auto;
+		}
+	}
+	.about {
+		h2 {
+			font-size: 4.5rem;
+			width: 100%;
+			margin: auto;
+			top: 90px;
+		}
+		height: 86vh;
+		width: 100%;
+		.img {
+			height: 77vh;
+		}
+		.intro-copy {
+			margin-top: 170px;
+		}
+	}
+	.main-gif.absolute {
+		position: absolute !important;
+		top: 200px;
+	}
+	.img {
+		img {
+			width: 75%;
+		}
+	}
+	.rbno {
+		margin-top: 40vh;
+	}
+	.bunch {
+		margin-top: 40vh;
+	}
+	.bananaleaves {
+		margin-top: 70vh;
+	}
+	.strider {
+		margin-top: 70vh;
+	}
+	.design-item-copy {
+		h2 {
+			font-size: 60px;
+		}
+	}
+	header {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px;
+		background-color: #8E665E;
+		z-index: 15;
+		a.header-logo {
+			width: 80px;
+			height: 80px;
+		}
+		a {
+			top: auto;
+			lef: auto;
+		}
+	}
+	.rosemill-logo-rose {
+		bottom: 20px;
+		left: 22px;
+		width: 35px;
+		height: 35px;
+	}
+	nav {
+		margin: 0;
+		margin-left: 47px;
+	}
+	.near-orbit {
+		height: 85%;
+	}
+	.rosemill-logo {
+		width: 75px;
+		height: 75px;
+	}
+	section.test-sticky {
+		top: 90px;
+	}
+	.wrapper {
+		width: 95%;
+	}
+}
