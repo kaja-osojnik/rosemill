@@ -31,7 +31,7 @@ const Navbar = () => {
       .timeline({
         scrollTrigger: {
           trigger: "body",
-          pin: true,
+
           scrub: 0.2,
           start: "top top",
           end: "+=10000",

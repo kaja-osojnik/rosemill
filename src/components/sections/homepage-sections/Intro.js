@@ -1,11 +1,21 @@
-import React, { Fragment, useRef, useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
+import { Link } from "react-router-dom";
 import rose from "../../../img/rose1_compressed.png";
 import moon from "../../../img/moon_compressed.png";
-import gsap, { Power3 } from "gsap";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Intro = () => {
   const tl = gsap.timeline();
   useEffect(() => {
+    ScrollTrigger.create({
+      trigger: ".main-gif",
+      pin: true,
+      end: "bottom 50%",
+    });
+
     gsap.to(".mainPlanet", {
       rotate: 360,
       duration: 45,
@@ -137,9 +147,12 @@ const Intro = () => {
           </h3>
           <div className="city">
             <span className="koordinate group city-group">
-              <a target="_blank" href="https://www.instagram.com/juxtax/?hl=en">
+              <Link
+                to={{ pathname: "https://www.instagram.com/juxtax/?hl=en" }}
+                target="_blank"
+              >
                 [@juxtax]
-              </a>
+              </Link>
             </span>
             <span className="ljubljana group city-group">[ma - si]</span>
           </div>

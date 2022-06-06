@@ -83,7 +83,7 @@ nav {
 	z-index: -1;
 }
 .main-gif {
-	position: fixed;
+	position: absolute;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -195,13 +195,19 @@ body.page-design {
 		visibility: hidden;
 	}
 }
+.of-hidden{
+	overflow: hidden;
+}
+.intro{
+	margin: 500px auto 80px;
+}
 .intro-copy {
-	width: 65%;
+	margin: 0 auto;
 	line-height: 1.4;
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Cormorant Garamond', serif;
-	margin: 400px auto 80px;
+	transform: translateY(120%);
 	strong {
 		font-size: 65px;
 		letter-spacing: 1px;
@@ -254,6 +260,9 @@ section.test-sticky {
 section.test-sticky.design {
 	width: 80%;
 	margin: auto;
+}
+.design-trigger{
+	visibility:hidden;
 }
 .design {
 	h2 {
@@ -943,15 +952,16 @@ a {
 	background-image: url("../../img/jiffy-pixelated.png");
 }
 div.loading {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	z-index: 16;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #B17A6E;
 }
 div.loading.hidden {
 	opacity: 0;
