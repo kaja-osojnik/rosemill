@@ -122,11 +122,7 @@ nav {
 		width: 100%;
 		height: 100px;
 	}
-	.pixelator {
-		&:last-child {
-			margin-bottom: 15px;
-		}
-	}
+
 	nav {
 		a {
 			&:hover {
@@ -197,6 +193,18 @@ body.page-design {
 }
 .of-hidden{
 	overflow: hidden;
+}
+
+.mb64{
+	margin-bottom: 64px;
+}
+
+.mb80{
+	margin-bottom: 80px
+}
+
+.mt80{
+	margin-top: 80px;
 }
 .intro{
 	margin: 500px auto 80px;
@@ -349,6 +357,10 @@ footer {
 .design-portfolio-front {
 	width: 100%;
 	margin: 100px auto 0;
+	.pixelator{
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
 .design-piece {
 	width: 100%;
@@ -382,14 +394,42 @@ footer {
 		margin: 0;
 		line-height: 1;
 	}
-	img {
-		width: 100%;
-		max-width: 360px;
-	}
 	span {
 		transform: rotate(90deg);
 		font-weight: 400;
 		letter-spacing: 5px;
+	}
+	img.rot-img{
+		object-fit: cover;
+		z-index: -1;
+		position: absolute;
+	}
+	&.rbno{
+		img.rot-img{
+			height: 300px;
+			width: 300px;
+			left: 0;
+		}
+	}
+	&.tracks{
+		img.rot-img{
+			height: 400px;
+			width: 424px;
+			left: 10px;
+		}
+	}
+	&.bananaleaves{
+		img.rot-img{
+			height: 300px;
+			width: 300px;
+			
+			&-left{
+				left: 0px;
+			}
+			&-right{
+				left: 124px;
+			}
+		}	
 	}
 }
 .webdev-content {
@@ -490,11 +530,6 @@ footer {
 	align-items: center;
 	border-bottom: 1px solid #2C2B2C;
 	cursor: pointer;
-	&:hover {
-		.pixelator {
-			transform: scale(1.2);
-		}
-	}
 }
 .webdev-piece-image {
 	position: relative;
@@ -506,12 +541,6 @@ footer {
 		top: 33%;
 		position: absolute;
 		right: 20px;
-	}
-	.pixelator {
-		transition: all .3s linear;
-		width: 100%;
-		max-width: 398px;
-		height: 238px;
 	}
 }
 .maybe_tracks_h1 {
@@ -799,11 +828,7 @@ a {
 	.sec-des-main-gif {
 		height: 100vh;
 	}
-	.pixelator {
-		width: 100%;
-		max-width: 500px;
-		height: 300px;
-	}
+
 	.design-item-images {
 		img {
 			width: 100%;
@@ -817,15 +842,7 @@ a {
 		font-family: 'Tajawal', sans-serif;
 	}
 }
-.pixelator {
-	height: 700px;
-	width: 100% !important;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	max-width: 680px;
-	margin: 15px auto 0;
-}
+
 .maybe-cover {
 	background-image: url("../../img/Maybe/maybe_cover-pixelated.png");
 }
@@ -905,6 +922,8 @@ a {
 .bananaleaves-img {
 	background-image: url("../../img/bananaleaves.png");
 	height: 300px;
+	width: 434px;
+	background-size: cover;
 }
 .bunch-img {
 	background-image: url("../../img/bunch.jpg");
@@ -913,6 +932,8 @@ a {
 .maybe-img {
 	background-image: url("../../img/maybe.jpg");
 	height: 400px;
+	height: 400px;
+	background-size: cover;
 }
 .strider-img {
 	background-image: url("../../img/strider.png");
@@ -921,21 +942,10 @@ a {
 .rbno-img {
 	background-image: url("../../img/Juxtaxrbno2.1a2rflctd.jpg");
 	height: 300px;
+	width: 300px;
 }
-.homepage {
-	.design-portfolio-front {
-		.pixelator {
-			width: 100%;
-			max-width: 313px;
-			margin: 5px 0;
-			&:hover {
-				cursor: pointer;
-				-webkit-filter: blur(2px);
-				filter: blur(2px);
-			}
-		}
-	}
-}
+
+
 .mudra-screen {
 	background-image: url("../../img/mudra-screen-pixelated.png");
 }
