@@ -37,6 +37,7 @@
 	}
 }
 @media only screen and (max-width: 768px) {
+
 	.page-webdev {
 		.pixelator {
 			max-width: 398px;
@@ -64,50 +65,16 @@
 			}
 		}
 	}
-	.rbno-img {
-		height: 200px;
-	}
-	.strider-img {
-		height: 200px;
-	}
-	.bunch-img {
-		height: 200px;
-	}
-	.bananaleaves-img {
-		height: 200px;
-	}
-	.tracks-img {
-		height: 230px;
-	}
-	.maybe-img {
-		height: 230px;
-	}
-	.tracks-logo {
-		height: 100px;
-	}
-	.bunch_website {
-		height: 1200px;
-	}
-	.strider_website {
-		height: 1200px;
-	}
-	.teeprinting {
-		height: 1200px;
-	}
-	.design-item {
-		margin-left: 0;
-	}
 	h1 {
 		font-size: 8.5rem;
 		margin-top: 280px;
 	}
+	.intro {
+		margin: 700px auto 120px;
+	}
 	.intro-copy {
 		font-size: 30px;
-		margin-top: 400px;
 		width: 80%;
-		strong {
-			font-size: 2rem;
-		}
 	}
 	.rosemill {
 		font-size: 15px;
@@ -124,12 +91,13 @@
 	.mainPlanet {
 		width: 50%;
 		height: 50%;
+		left: 25%;
 	}
 	.smallPlanet {
 		img {
 			width: 10%;
 		}
-		display: none;
+	
 	}
 	.planet-x {
 		img {
@@ -165,7 +133,6 @@
 			font-size: 4.5rem;
 			width: 100%;
 			margin: auto;
-			top: 90px;
 		}
 	}
 	.design {
@@ -180,7 +147,6 @@
 			font-size: 4.5rem;
 			width: 100%;
 			margin: auto;
-			top: 90px;
 		}
 		height: 86vh;
 		width: 100%;
@@ -200,49 +166,16 @@
 			width: 75%;
 		}
 	}
-	.rbno {
-		margin-top: 40vh;
-	}
-	.bunch {
-		margin-top: 40vh;
-	}
-	.bananaleaves {
-		margin-top: 70vh;
-	}
-	.strider {
-		margin-top: 70vh;
-	}
 	.design-item-copy {
 		h2 {
 			font-size: 60px;
 		}
 	}
-	header {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 5px;
-		background-color: #8E665E;
-		z-index: 15;
-		a.header-logo {
-			width: 80px;
-			height: 80px;
-		}
-		a {
-			top: auto;
-			lef: auto;
-		}
-	}
 	.rosemill-logo-rose {
-		bottom: 20px;
-		left: 22px;
+		bottom: 28px;
+		left: 25px;
 		width: 35px;
 		height: 35px;
-	}
-	nav {
-		margin: 0;
-		margin-left: 47px;
 	}
 	.near-orbit {
 		height: 85%;
@@ -251,10 +184,95 @@
 		width: 75px;
 		height: 75px;
 	}
-	section.test-sticky {
-		top: 90px;
-	}
+	// section.test-sticky {
+	// 	top: 90px;
+	// }
 	.wrapper {
 		width: 95%;
 	}
+	.design-piece{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+		h3{
+			font-size: 2.5rem!important;
+		}
+		.design-thumbnail {
+			width: auto;
+			&.mt80{
+				margin-top: 0;
+			}
+			.h3{
+				&-container{
+					width: 40vw;
+				}
+				&-wrap{
+					width: 40vw;
+					
+				}
+		}
+		.th-desc{
+			width: 40vw;
+			.vert-line{
+				margin-left: calc(20vw - 2px);
+			}
+		}
+	}
+}
+
+.tracks-img {
+	background-image: url("../../img/tracks.jpg");
+	height: 40vw;
+	width: 40vw;
+	background-size: cover;
+}
+.bananaleaves-img {
+	background-image: url("../../img/bananaleaves.png");
+	height: 40vw;
+	width: 40vw;
+	background-size: cover;
+}
+.bunch-img {
+	background-image: url("../../img/bunch.jpg");
+	height: 40vw;
+	width: 40vw;
+	background-size: cover;
+}
+.maybe-img {
+	background-image: url("../../img/maybe.jpg");
+	height: 40vw;
+	width: 40vw;
+	background-size: cover;
+}
+.strider-img {
+	background-image: url("../../img/strider.png");
+	height: 40vw;
+	width: 40vw;
+	background-size: cover;
+}
+.rbno-img {
+	background-image: url("../../img/Juxtaxrbno2.1a2rflctd.jpg");
+	height: 40vw;
+	width: 40vw;
+	background-size: cover;
+}
+img.rot-img{
+	object-fit: cover;
+	z-index: -1;
+	position: absolute;
+	left: 5vw;
+	top: 5vw;
+	height: 30vw!important;
+	width: 30vw!important;
+}
+
+.panel,
+.panel2{
+	width: 50vw!important;
+}
+
+.horizontal-container-first{
+	transform: translateX(-100%);
+}
 }

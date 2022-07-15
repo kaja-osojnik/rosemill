@@ -22,7 +22,7 @@ const Info = () => {
   }, []);
   return (
     <section className="intro">
-      <div className="of-hidden">
+      <div className="of-hidden wrapper">
         <p className="intro-copy cc1">
           Welcome to <strong>rosemill</strong>'s digital portfolio presenting
         </p>
