@@ -1,6 +1,5 @@
 $color-ocre: #B17A6E;
 
-
 * {
 	box-sizing: border-box;
 }
@@ -32,6 +31,9 @@ header {
 		width: 120px;
 		height: 120px;
 		z-index: 999999;
+	}
+	.nav-mobile{
+		display: none;
 	}
 }
 

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import gif from "../../img/webdev.gif";
 import gsap from "gsap";
 import ButtonMailto from "./ButtonMailto";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const WebDev = () => {
   useEffect(() => {
@@ -42,18 +43,40 @@ const WebDev = () => {
         "-=0.9"
       );
 
-    gsap.to(".intro-copy", {
-      duration: 0.2,
-      y: 0,
-      stagger: 0.1,
-      scrollTrigger: {
-        trigger: ".intro-copy",
-        markers: false,
-        start: "top bottom-=10%",
-        end: "bottom 30%",
-        scrub: 0.2,
+    ScrollTrigger.matchMedia({
+      // small
+      "(max-width: 768px)": function () {
+        gsap.to(".intro-copy", {
+          duration: 0.2,
+          y: 0,
+          stagger: 0.1,
+          scrollTrigger: {
+            trigger: ".intro-copy",
+            markers: true,
+            start: "top bottom-=10%",
+            end: "bottom 50%",
+            scrub: 0.2,
+          },
+        });
+      },
+
+      // all
+      all: function () {
+        gsap.to(".intro-copy", {
+          duration: 0.2,
+          y: 0,
+          stagger: 0.1,
+          scrollTrigger: {
+            trigger: ".intro-copy",
+            markers: false,
+            start: "top bottom-=10%",
+            end: "bottom 30%",
+            scrub: 0.2,
+          },
+        });
       },
     });
+
     //eslint-disable-next-line
   }, []);
   return (

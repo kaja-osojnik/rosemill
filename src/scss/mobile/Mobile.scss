@@ -1,10 +1,43 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+	header{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		background-color: $color-ocre;
+		height: 90px;
+		nav{
+			margin: 0;
+		}
+		.header-logo{
+			top: 0;
+			transform: scale(.85);
+		}
+		.nav-mobile{
+			display: block;
+			ul{
+				margin-top: 12px;
+			}
+			.nav-link{
+				width: 120px;
+				text-align: center;
+			}
+			&-left{
+				margin-left: -30px;
+			}
+		}
+		.nav-lg{
+			display: none;
+		}
+	}
+	.rosemill-logo-rose {
+		bottom: 60px;
+	}
 	h1 {
-		margin-top: 180px;
+		margin-top: 80px;
 		font-size: 5.5rem;
 	}
-	.pixelator {
-		max-width: 414px;
+	.rosemill{
+		padding: 0 30px;
 	}
 	.homepage {
 		.design-portfolio-front {
@@ -137,8 +170,7 @@
 	}
 	.intro-copy {
 		font-size: 24px;
-		margin-top: 330px;
-		width: 95%;
+		width: 80%;
 	}
 	.copyright {
 		font-size: 12px;

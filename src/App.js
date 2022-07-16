@@ -54,7 +54,7 @@ const App = () => {
       <div className="App">
         <div className={`${!isHomepage && "white-bg"}`}>
           <Cursor />
-          <Navbar />
+          <Navbar isHomepage={isHomepage} />
           <Routes>
             <Route exct path="/" element={<Homepage />} />
             <Route exct path="/design" element={<Design />} />

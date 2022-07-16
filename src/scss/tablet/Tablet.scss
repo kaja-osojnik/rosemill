@@ -1,4 +1,9 @@
 @media only screen and (max-width: 992px) {
+	header{
+		a{
+			width: auto;
+		}
+	}
 	.design-item-copy {
 		h2 {
 			font-size: 70px;
@@ -67,13 +72,18 @@
 	}
 	h1 {
 		font-size: 8.5rem;
-		margin-top: 280px;
+		margin-top: 0;
 	}
-	.intro {
-		margin: 700px auto 120px;
+	.main-gif-dev{
+		img{
+			width: 470px;
+		}
+	}
+	.intro-dev {
+		margin: 300px 0 300px;
 	}
 	.intro-copy {
-		font-size: 30px;
+		font-size: 21px;
 		width: 80%;
 	}
 	.rosemill {
