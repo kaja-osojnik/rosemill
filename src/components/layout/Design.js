@@ -72,7 +72,7 @@ const Design = () => {
     //eslint-disable-next-line
   }, []);
   return (
-    <div>
+    <main className="main-design">
       <section className="sec-des-main-gif">
         <div className="main-heading-wrap">
           <div className="main-gif main-gif-design">
@@ -174,7 +174,7 @@ const Design = () => {
           <img src={shirt} alt="Banana Leaves" />
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 

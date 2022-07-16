@@ -751,6 +751,7 @@ a {
 		color: #e8c48e;
 	}
 }
+
 .name {
 	text-align: center;
 	margin-top: 150px;
@@ -864,9 +865,13 @@ a {
 		position: absolute;
 	}
 }
+// .main-design{
+// 	overflow-x: hidden;
+// }
 .design-item {
 	display: flex;
-	margin-left: 155px;
+	padding-left: 155px;
+	
 	&:first-child{
 		margin-top: 50vh;
 	}

@@ -9,6 +9,16 @@
 			font-size: 70px;
 		}
 	}
+	.sec-des-main-gif{
+		position: relative;
+		.main-heading-wrap{
+			position: absolute;
+			top: 80px;
+		}
+	}
+	.main-gif-design{
+		transform: scale(.8);
+	}
 	h1 {
 		font-size: 12.5rem;
 	}

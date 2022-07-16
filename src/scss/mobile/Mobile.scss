@@ -152,8 +152,18 @@
 	}
 	.design-item {
 		display: block;
+		padding-left: 0;
 		div {
 			width: 100%;
+		}
+	}
+	.sec-des-main-gif {
+		margin-bottom: 40vh;
+		.main-heading-wrap {
+			top: 0;
+		}
+		.h1-wrap{
+			padding-top: 120px;
 		}
 	}
 	.design-item-copy {
