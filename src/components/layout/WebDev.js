@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import gif from "../../img/webdev.gif";
 import gsap from "gsap";
+import ButtonMailto from "./ButtonMailto";
 
 const WebDev = () => {
   useEffect(() => {
@@ -93,7 +94,13 @@ const WebDev = () => {
           <p className="intro-copy cc3">forward you the links.</p>
         </div>
         <div className="of-hidden mt64">
-          <p className="intro-copy cc3">Get in touch at info@rosemill.com</p>
+          <p className="intro-copy cc4">
+            {" "}
+            <ButtonMailto
+              label="Get in touch"
+              mailto="mailto:kaja.osojnik@gmail.com"
+            />
+          </p>
         </div>
       </section>
     </main>

@@ -421,6 +421,15 @@ section.test-sticky.design {
 	.intro-copy {
 		margin-top: 275px;
 	}
+	.kaja-img{
+		width: 400px;
+		height: 655px;
+		background-image: url("../../img/kaja.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
 }
 .img {
 	img {
@@ -453,6 +462,24 @@ footer {
 	&.whitefooter{
 		background-color: #ffffff;
 	}
+	.marquee {
+		width: 100%;
+		overflow: hidden;
+	  }
+	  .marquee .inner {
+		width: 100%;
+		display: flex;
+		}
+	  .marquee .inner > * {
+		white-space: nowrap;
+		padding: 0 4rem;
+	  }
+	  
+	//   .marquee .inner a {
+	// 	color: black;
+	// 	font-size: 4em;
+	// 	margin-right: 2em;
+	//   }
 }
 .piece-1 {
 	margin-bottom: 200px;
@@ -1101,4 +1128,11 @@ div.loading.hidden {
 .intro-copy.info-text{
 	width: 50%;
 	max-width: 800px;
+}
+.intro-dev{
+	.cc4{
+		a{
+			text-decoration: underline;
+		}
+	}
 }

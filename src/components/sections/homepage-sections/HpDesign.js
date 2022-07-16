@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import gsap from "gsap";
+import { Link } from "react-router-dom";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import rbnoBack from "../../../img/Rbno2/album_back.png";
 import wallpaper from "../../../img/Rbno2/album_wallpaper.jpg";
@@ -344,7 +345,7 @@ const HpDesign = () => {
 
       <section className="design-portfolio-front design-trigger">
         <div className="design-piece">
-          <div className="design-thumbnail rbno skewElem ">
+          <div className="design-thumbnail rbno skewElem hover">
             <div className="sm-fl">
               <div className="h3-container">
                 <div className="h3-wrap bg-white">
@@ -362,11 +363,13 @@ const HpDesign = () => {
                   alt="Wallpaper"
                   className="rot-img rot-img-left"
                 />
-                <div className="rbno-img"></div>
-                <div className="th-desc">
-                  <div className="vert-line"></div>
-                  <p className="text-center">ALBUM COVER</p>
-                </div>
+                <Link to="/design">
+                  <div className="rbno-img"></div>
+                  <div className="th-desc">
+                    <div className="vert-line"></div>
+                    <p className="text-center">ALBUM COVER</p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -388,11 +391,13 @@ const HpDesign = () => {
                 alt="Tracks Front"
                 className="rot-img rot-img-left"
               />
-              <div className="tracks-img"></div>
-              <div className="th-desc">
-                <div className="vert-line"></div>
-                <p className="text-center">BOOK DESIGN</p>
-              </div>
+              <Link to="/design">
+                <div className="tracks-img"></div>
+                <div className="th-desc">
+                  <div className="vert-line"></div>
+                  <p className="text-center">BOOK DESIGN</p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -415,11 +420,13 @@ const HpDesign = () => {
                 alt="Washing powder"
                 className="rot-img rot-img-left"
               />
-              <div className="bananaleaves-img"></div>
-              <div className="th-desc">
-                <div className="vert-line"></div>
-                <p className="text-center">BRANDING</p>
-              </div>
+              <Link to="/design">
+                <div className="bananaleaves-img"></div>
+                <div className="th-desc">
+                  <div className="vert-line"></div>
+                  <p className="text-center">BRANDING</p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="design-thumbnail bunch skewElem mt80">
@@ -439,11 +446,13 @@ const HpDesign = () => {
                 alt="Bunch Sign"
                 className="rot-img rot-img-right"
               />
-              <div className="bunch-img"></div>
-              <div className="th-desc">
-                <div className="vert-line"></div>
-                <p className="text-center">BRANDING</p>
-              </div>
+              <Link to="/design">
+                <div className="bunch-img"></div>
+                <div className="th-desc">
+                  <div className="vert-line"></div>
+                  <p className="text-center">BRANDING</p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -466,11 +475,13 @@ const HpDesign = () => {
                 alt="Maybe Spread"
                 className="rot-img rot-img-right"
               />
-              <div className="maybe-img"></div>
-              <div className="th-desc">
-                <div className="vert-line"></div>
-                <p className="text-center">PUBLICATION</p>
-              </div>
+              <Link to="/design">
+                <div className="maybe-img"></div>
+                <div className="th-desc">
+                  <div className="vert-line"></div>
+                  <p className="text-center">PUBLICATION</p>
+                </div>
+              </Link>
             </div>
           </div>
 
@@ -491,17 +502,16 @@ const HpDesign = () => {
                 alt="Strider Website"
                 className="rot-img rot-img-right"
               />
-              <div className="strider-img"></div>
-              <div className="th-desc">
-                <div className="vert-line"></div>
-                <p className="text-center">BRANDING</p>
-              </div>
+              <Link to="/design">
+                <div className="strider-img"></div>
+                <div className="th-desc">
+                  <div className="vert-line"></div>
+                  <p className="text-center">BRANDING</p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
-        {/* <Link to="/design" className="see-all-design">
-          SEE ALL DESIGN & COLLAGE
-        </Link> */}
       </section>
     </Fragment>
   );
