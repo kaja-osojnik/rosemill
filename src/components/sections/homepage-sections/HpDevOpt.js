@@ -22,7 +22,7 @@ const HpDevOpt = () => {
       xPercent: -100 * (sections.length - 1),
       ease: "none",
       scrollTrigger: {
-        trigger: ".horizontal-container",
+        trigger: ".horizontal-body",
         pin: true,
         scrub: 1,
         end: "+=1800",
