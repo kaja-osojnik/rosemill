@@ -52,7 +52,7 @@ const WebDev = () => {
           stagger: 0.1,
           scrollTrigger: {
             trigger: ".intro-copy",
-            markers: true,
+            markers: false,
             start: "top bottom-=10%",
             end: "bottom 50%",
             scrub: 0.2,
