@@ -27,12 +27,12 @@ const Navbar = ({ isHomepage }) => {
         <nav className="nav-lg">
           <ul>
             <li>
-              <Link to="/design" className="nav-link">
+              <Link to="/design" className="nav-link nav-link-design">
                 design
               </Link>
             </li>
             <li>
-              <Link to="/webdev" className="nav-link">
+              <Link to="/webdev" className="nav-link nav-link-webdev">
                 webdev
               </Link>
             </li>
