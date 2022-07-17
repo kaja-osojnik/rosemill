@@ -52,7 +52,7 @@ const App = () => {
   }, []);
   return (
     <Router>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <div className="App">
         <div className={`${!isHomepage && "white-bg"}`}>
           <Cursor />
