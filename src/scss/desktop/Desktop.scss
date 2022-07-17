@@ -4,7 +4,7 @@ $color-ocre: #B17A6E;
 	box-sizing: border-box;
 }
 html {
-	scroll-behavior: smooth;
+	// scroll-behavior: smooth;
 }
 body {
 	opacity: 1;
@@ -426,7 +426,7 @@ section.test-sticky.design {
 	.kaja-img{
 		width: 400px;
 		height: 655px;
-		background-image: url("../../img/kaja.jpg");
+		background-image: url("../../img/kaja.png");
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: contain;

@@ -33,7 +33,7 @@
 		bottom: 60px;
 	}
 	h1 {
-		margin-top: 80px;
+		margin-top: 140px;
 		font-size: 5.5rem;
 	}
 	.rosemill{
@@ -87,25 +87,25 @@
 		width: 100%;
 	}
 	.mainPlanet {
-		width: 40%;
-		height: 40%;
+		width: 250px;
+		height: 250px;
 	}
 	.near-orbit {
 		height: 80%;
 	}
 	.planet-x {
 		img {
-			top: 56px;
+			top: 256px;
 		}
 	}
 	.mars {
 		img {
-			top: 30px;
+			top: 450px;
 		}
 	}
 	.saturn {
 		img {
-			top: 20px;
+			top: 300px;
 		}
 	}
 	.main-gif.absolute {
@@ -180,9 +180,88 @@
 	}
 	.intro-copy {
 		font-size: 24px;
-		width: 80%;
+		width: auto;
 	}
 	.copyright {
 		font-size: 12px;
+	}
+
+	.design-thumbnail {
+		.h3{
+			&-container{
+				width: 65vw!important;
+			}
+			&-wrap{
+				width: 65vw!important;
+				
+			}
+	}}
+	.th-desc{
+		width: 65vw!important;
+		.vert-line{
+			margin-left: calc(32vw - 2px)!important;
+		}
+	}
+
+	.tracks-img {
+		background-image: url("../../img/tracks.jpg");
+		height: 65vw!important;
+		width: 65vw!important;
+		background-size: cover;
+	}
+	.bananaleaves-img {
+		background-image: url("../../img/bananaleaves.png");
+		height: 65vw!important;
+		width: 65vw!important;
+		background-size: cover;
+	}
+	.bunch-img {
+		background-image: url("../../img/bunch.jpg");
+		height: 65vw!important;
+		width: 65vw!important;
+		background-size: cover;
+	}
+	.maybe-img {
+		background-image: url("../../img/maybe.jpg");
+		height: 65vw!important;
+		width: 65vw!important;
+		background-size: cover;
+	}
+	.strider-img {
+		background-image: url("../../img/strider.png");
+		height: 65vw!important;
+		width: 65vw!important;
+		background-size: cover;
+	}
+	.rbno-img {
+		background-image: url("../../img/Juxtaxrbno2.1a2rflctd.jpg");
+		height: 65vw!important;
+		width: 65vw!important;
+		background-size: cover;
+	}
+	img.rot-img {
+		object-fit: cover;
+		z-index: -1;
+		position: absolute;
+		left: 16vw!important;
+		top: 16vw!important;
+		height: 40vw !important;
+		width: 40vw !important;
+	}
+	.kaja-img{
+		background-attachment: unset!important;
+		opacity: .6;
+	}
+	.intro{
+		margin-top: 700px;
+	}
+	section.test-sticky,
+	.webdev h2,
+	.about h2{
+		top: 90px;
+	}
+
+	.intro-copy.info-text {
+		width: 80%;
 	}
 }

@@ -345,32 +345,30 @@ const HpDesign = () => {
 
       <section className="design-portfolio-front design-trigger">
         <div className="design-piece">
-          <div className="design-thumbnail rbno skewElem hover">
-            <div className="sm-fl">
-              <div className="h3-container">
-                <div className="h3-wrap bg-white">
-                  <h3>Rbno.2</h3>
+          <div className="design-thumbnail rbno skewElem">
+            <div className="h3-container">
+              <div className="h3-wrap bg-white">
+                <h3>Rbno.2</h3>
+              </div>
+            </div>
+            <div className="relative">
+              <img
+                src={rbnoBack}
+                alt="Album back"
+                className="rot-img rot-img-right "
+              />
+              <img
+                src={wallpaper}
+                alt="Wallpaper"
+                className="rot-img rot-img-left"
+              />
+              <Link to="/design">
+                <div className="rbno-img"></div>
+                <div className="th-desc">
+                  <div className="vert-line"></div>
+                  <p className="text-center">ALBUM COVER</p>
                 </div>
-              </div>
-              <div className="relative">
-                <img
-                  src={rbnoBack}
-                  alt="Album back"
-                  className="rot-img rot-img-right "
-                />
-                <img
-                  src={wallpaper}
-                  alt="Wallpaper"
-                  className="rot-img rot-img-left"
-                />
-                <Link to="/design">
-                  <div className="rbno-img"></div>
-                  <div className="th-desc">
-                    <div className="vert-line"></div>
-                    <p className="text-center">ALBUM COVER</p>
-                  </div>
-                </Link>
-              </div>
+              </Link>
             </div>
           </div>
 

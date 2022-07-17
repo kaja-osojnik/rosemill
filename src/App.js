@@ -7,6 +7,7 @@ import Design from "./components/layout/Design";
 import WebDev from "./components/layout/WebDev";
 import Footer from "./components/layout/Footer";
 import Cursor from "./components/layout/Cursor";
+import ScrollToTop from "./components/layout/ScrollToTop";
 import gsap from "gsap";
 
 const App = () => {
@@ -51,6 +52,7 @@ const App = () => {
   }, []);
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <div className={`${!isHomepage && "white-bg"}`}>
           <Cursor />
